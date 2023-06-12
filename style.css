@@ -1,3 +1,40 @@
-header{
-    background-color: #D62D42;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho {
+    background-color: #383d58;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabeçalho-imagem{
+    width: 20%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#383d58, #4ebfe9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0 ;
+}
+
+.escola-div-content{
+    width: 35%;
 }
