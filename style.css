@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
-.cabeçalho {
+header {
     background-color: #383d58;
     color: white;
     display: flex;
